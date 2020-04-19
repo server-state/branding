@@ -6,14 +6,14 @@ The official brand name is *Server State*. In technical applications, this gets 
 
 Because of associations with the German NS time, an abbreviation of *SS* is **not allowed**.
 
-If, for some reason, an abbreviation is needed, use *SerSta*.
+If, for some reason, you need an abbreviation abbreviation, use *SerSta*.
 ```
 
 
 ## Product names
 Products of the *Server State* organization get named in the pattern
 
-> "Server State [prodct name]"
+> "Server State [product name]"
 
 after first calling it by this full name, it's possible to either abbreviate *Server State* to *SerSta* or drop the prefix all together:
 
