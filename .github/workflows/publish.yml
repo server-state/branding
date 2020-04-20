@@ -1,4 +1,4 @@
-name: Pages
+name: Build
 
 on:
   push:
@@ -17,14 +17,6 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm run catalog-build --if-present
-      - name: Build and Deploy
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.gh_token }}
-          GITHUB_TOKEN: ${{ secrets.gh_token }}
-          CLEAN: true
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: catalog/build # The folder the action should deploy.
       - name: Upload artifact
         uses: actions/upload-artifact@v1
         with:
