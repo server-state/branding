@@ -14,9 +14,9 @@ const pages = [
     content: pageLoader(() => import('./COLORS.md'))
   },
   {
-    path: '/logo',
-    title: 'Logo',
-    content: pageLoader(() => import('./LOGO.md'))
+    path: '/logos',
+    title: 'Logos',
+    content: pageLoader(() => import('./LOGOS.md'))
   },
   {
     path: '/shapes',
