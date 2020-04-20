@@ -41,6 +41,15 @@ We want to create a good contrast with our logos. To achieve this, we use the co
 ### The outline
 To add more contrast to the background in transparent logos, we add an outline with a stroke width of `x/24` in the opposing color of the prosumed background color (i.e., *Black* for light backgrounds and *White* for dark backgrounds) to the main shape of the logo. This, e.g., gets used in the main Server State logo, as you can see below.
 
+### Template
+To make the logo design process easier, we provide an XD template file for creating Server State logos:
+
+```download
+title: 'XD Logo Template (.xd)'
+subtitle: Guideline-compliant template for creating logos with Adobe XD
+url: '/grid/logo-template.xd'
+```
+
 ## The Server State logo
 Depending on the environment, different variants of the Server State Logo may get used.
 
